@@ -1,2 +1,7 @@
-# Python_Project
- Welcome to the GitHub Repository of Behailu Tessema, DeveloperMode! Your interest and time are truly appreciated. Here, you'll find a collection of projects, code snippets, and collaborative efforts that showcase my skills and experience as a developer.
+🐍 Python Developer | Data Processing & Automation Enthusiast
+
+💻 Learning and building projects in Python with a focus on data processing, automation, and ETL workflows. Skilled in leveraging Python for data extraction, transformation, and analysis, integrating it with SQL, Power BI, and SSIS to enhance efficiency. Exploring libraries like Pandas, NumPy, and Matplotlib for data manipulation and visualization.
+
+🚀 Passionate about automating repetitive tasks, optimizing workflows, and using Python to bridge the gap between data engineering and business intelligence. 
+
+Constantly improving coding skills and applying Python in real-world data projects.Check out my projects below! 🔥
