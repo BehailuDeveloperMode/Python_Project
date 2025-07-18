@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="904867B6-F55E-782C-32DC-6B3B02BF97D9" name="coverage_type">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-18 08:47:50 UTC</createdTime>
+<generatorID>4738841B-F943-A3FB-870C-7127D8AB4426</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="type_id" id="BC3CE1EB-5B80-D1D7-8C5A-CCD71A02D286">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-18 08:47:50 UTC</createdTime>
+<generatorID>936E22B1-8728-147B-68AB-51383EEB95F7</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>14B7C2ED-9206-CADE-14E6-AD89CCF9CC09</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="coverage_name" id="E1CC500B-8084-898D-4BD3-EFABCB5E084D">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-18 08:47:50 UTC</createdTime>
+<generatorID>C4A9149D-DF19-BED8-75A5-4B4174C12C39</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>154FE5C7-083D-B443-8DA7-C0DECB28841F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5527FA12-980E-1471-FC91-4E4BDE4DFD3A" name="coverage_type_PK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-18 08:47:50 UTC</createdTime>
+<generatorID>E39EE215-8218-40C3-B840-5BBBBADD4975</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC3CE1EB-5B80-D1D7-8C5A-CCD71A02D286"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
