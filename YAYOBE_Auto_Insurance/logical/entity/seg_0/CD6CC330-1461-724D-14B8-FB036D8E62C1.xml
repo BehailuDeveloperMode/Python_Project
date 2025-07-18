@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD6CC330-1461-724D-14B8-FB036D8E62C1" name="accident_report">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 02:37:11 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="report_id" id="C9D99005-711F-29AF-8ACD-6B08F6303279">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:40:07 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>14B7C2ED-9206-CADE-14E6-AD89CCF9CC09</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="accident_date" id="CD56F0DC-7854-2DCC-6E89-00C3548452DD">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:40:17 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4B8730F6-82B6-E50C-52BC-45C452D8CB2A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="accident_time" id="A40E291C-8A8D-A70B-5D90-A75AA8DEC8C9">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:40:17 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<domain>474128BE-D1E6-4A3D-3B21-D3F73C609AB5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" location" id="9CD3B257-3C46-A0E8-2706-6C013045916E">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:40:18 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>154FE5C7-083D-B443-8DA7-C0DECB28841F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="police_report_number" id="DE88FB12-D7BD-866F-53E0-CD92A3FBA502">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:40:18 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>08F526CE-76A1-1D19-A7ED-EDE918A98D85</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fault_determination" id="5D5CCC31-218D-E318-3D2F-A0E92BE154D7">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:40:18 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>154FE5C7-083D-B443-8DA7-C0DECB28841F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6990A33C-E4A5-683A-2ADC-CF5C363F2B9E" name="pk_report">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:48:38 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C9D99005-711F-29AF-8ACD-6B08F6303279</newElementsIDs>
+<usedAttributes>
+<attributeRef>C9D99005-711F-29AF-8ACD-6B08F6303279</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

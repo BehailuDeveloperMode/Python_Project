@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8986CB28-83DE-76CC-3D20-0535B02CCA55" name="claim">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 02:36:27 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="claim_id" id="27222006-941B-2449-15BF-E103092CBBBC">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:30:18 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>14B7C2ED-9206-CADE-14E6-AD89CCF9CC09</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="claim_date" id="EB0E8E38-9541-E72D-6EA3-10D936BF004F">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:30:19 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4B8730F6-82B6-E50C-52BC-45C452D8CB2A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="claim_status" id="3B844600-A06B-A3D3-4D2D-0A422A328747">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:30:19 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>154FE5C7-083D-B443-8DA7-C0DECB28841F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="claim-amount" id="D2EBA168-704E-567A-457A-F3EF2BBEEC64">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:30:19 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>75E3FEC3-2CF9-F182-0CFA-8FBF83D38649</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" accident-description" id="B42F8B9B-195F-E923-5DAD-CFA968E52392">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:30:20 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>154FE5C7-083D-B443-8DA7-C0DECB28841F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55BE5B2B-0508-56A7-65F7-03839D565D78" name="pk_claim">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-17 05:37:48 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>27222006-941B-2449-15BF-E103092CBBBC</newElementsIDs>
+<usedAttributes>
+<attributeRef>27222006-941B-2449-15BF-E103092CBBBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
