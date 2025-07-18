@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49F63AC0-6F5D-5652-5D07-F4FA11F983CA" name="coverage">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-18 08:47:50 UTC</createdTime>
+<generatorID>4DD2FA96-442C-8C5C-693B-DE36AB1ECAE7</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="coverage_id" id="04EDA8FB-EDE2-DE14-B699-26C3E8BF9DA6">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-18 08:47:50 UTC</createdTime>
+<generatorID>7B3346D6-5CE3-645E-C282-243C13D3F8DD</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>14B7C2ED-9206-CADE-14E6-AD89CCF9CC09</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="coverage_type" id="E7E71437-4D96-6192-8995-28D973552355">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-18 08:47:50 UTC</createdTime>
+<generatorID>3675506D-A75A-A11B-4071-C7D5474DE5F4</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>154FE5C7-083D-B443-8DA7-C0DECB28841F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="coverage_limit" id="0D86BDCF-4AE8-20CD-E09D-42EEB75D9B94">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-18 08:47:50 UTC</createdTime>
+<generatorID>74720AFE-AAA1-45FC-8FAE-30778ACBD21A</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>75E3FEC3-2CF9-F182-0CFA-8FBF83D38649</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deductible" id="FC3C3C07-F461-FF50-B946-05404F80D0D8">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-18 08:47:50 UTC</createdTime>
+<generatorID>085234E4-3136-60FB-766E-9FD692CE0A5D</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>75E3FEC3-2CF9-F182-0CFA-8FBF83D38649</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACC0F9A1-2395-FE66-1924-3C7B00F1E281" name="coverage_PK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-18 08:47:50 UTC</createdTime>
+<generatorID>6A3C70C2-973F-683F-34EB-30E716B5591F</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04EDA8FB-EDE2-DE14-B699-26C3E8BF9DA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
