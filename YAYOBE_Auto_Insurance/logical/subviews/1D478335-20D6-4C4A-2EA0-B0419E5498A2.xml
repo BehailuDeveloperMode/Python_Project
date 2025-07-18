@@ -8,7 +8,7 @@
 <showLegend>false</showLegend>
 <showLabels>true</showLabels>
 <showRelAttributes>false</showRelAttributes>
-<gridEnabled>false</gridEnabled>
+<gridEnabled>true</gridEnabled>
 <showGrid>false</showGrid>
 <diagramColor>-1</diagramColor>
 <legendPosX>27</legendPosX>
@@ -18,15 +18,15 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="04987FA3-DFB0-B6F3-23DD-A0248DDC70A9" otype="Entity" vid="545E3E0F-9C2A-FB05-317D-135B1A8908D3">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="30" y="202" width="141" height="112"/>
+<bounds x="30" y="202" width="141" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2F3C97D7-EE94-6D54-799E-74F33BF672C3" otype="Entity" vid="A4A28892-AAF0-ED68-6DCA-D757A1BAA574">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="32" y="27" width="137" height="169"/>
+<bounds x="32" y="27" width="137" height="166"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="464266E0-3C09-E234-448D-251579F83268" otype="Entity" vid="0B2E4730-1A61-DDEA-85E5-4AB78C42F407">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="182" y="30" width="165" height="283"/>
+<bounds x="182" y="30" width="165" height="264"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="4738841B-F943-A3FB-870C-7127D8AB4426" otype="Entity" vid="BB1D88BB-639E-D66D-E5A9-CAF3B433519B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
