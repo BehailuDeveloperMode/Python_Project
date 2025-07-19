@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+<changeSet author="tbeha" id="_10">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DropStatements.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_20">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\accident_report.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_30">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\accident_report_Constraints.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_40">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\agent.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_50">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\agent_Constraints.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_60">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\claim.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_70">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\claim_Constraints.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_80">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\coverage.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_90">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\coverage_Constraints.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_100">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\coverage_type.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_110">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\coverage_type_Constraints.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_120">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\customer.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_130">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\customer_Constraints.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_140">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\payment.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_150">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\payment_Constraints.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_160">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\policy.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_170">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\policy_Constraints.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_180">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\vehicle.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_190">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\Table\vehicle_Constraints.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_200">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\ForeignKey\accident_report_claim_FK.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_210">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\ForeignKey\claim_policy_FK.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_220">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\ForeignKey\coverage_coverage_type_FK.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_230">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\ForeignKey\coverage_policy_FK.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_240">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\ForeignKey\payment_policy_FK.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_250">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\ForeignKey\policy_agent_FK.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_260">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\ForeignKey\policy_customer_FK.sql"/>
+</changeSet>
+<changeSet author="tbeha" id="_270">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="YAYOBE_Auto_Insurance\YAYOBE_Auto_Insurance_Relational\SQL_Server_2012\DataObjects\ForeignKey\vehicle_customer_FK.sql"/>
+</changeSet>
+</databaseChangeLog>

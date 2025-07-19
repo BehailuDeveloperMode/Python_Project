@@ -1,0 +1,5 @@
+ALTER TABLE policy ADD CONSTRAINT policy_PK PRIMARY KEY CLUSTERED (policy_id)
+     WITH (
+     ALLOW_PAGE_LOCKS = ON , 
+     ALLOW_ROW_LOCKS = ON )
+GO
