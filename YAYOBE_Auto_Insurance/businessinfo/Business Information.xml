@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="8F7E4F2E-F406-B24D-B73D-0C7BFAF80E48">
-<createdBy>tbeha</createdBy>
-<createdTime>2025-07-17 01:52:29 UTC</createdTime>
-<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>

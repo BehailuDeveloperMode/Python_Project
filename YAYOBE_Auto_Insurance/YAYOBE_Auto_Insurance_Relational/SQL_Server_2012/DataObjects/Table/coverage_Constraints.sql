@@ -1,5 +1,0 @@
-ALTER TABLE coverage ADD CONSTRAINT coverage_PK PRIMARY KEY CLUSTERED (coverage_id)
-     WITH (
-     ALLOW_PAGE_LOCKS = ON , 
-     ALLOW_ROW_LOCKS = ON )
-GO
