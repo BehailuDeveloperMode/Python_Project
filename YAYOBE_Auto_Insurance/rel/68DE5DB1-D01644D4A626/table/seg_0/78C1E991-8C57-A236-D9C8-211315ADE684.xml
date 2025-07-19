@@ -4,6 +4,7 @@
 <createdTime>2025-07-18 08:47:50 UTC</createdTime>
 <generatorID>B83BCC51-355C-8FFB-CA63-A91D6A5D7970</generatorID>
 <ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -50,6 +51,8 @@
 <ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>154FE5C7-083D-B443-8DA7-C0DECB28841F</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
