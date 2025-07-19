@@ -92,14 +92,43 @@
 <domain>75E3FEC3-2CF9-F182-0CFA-8FBF83D38649</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="customer_id" id="745F1215-3F24-F463-C6F2-3FF6C08BD5EA">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-19 07:05:56 UTC</createdTime>
+<generatorID>5B3271F8-92FC-07C5-AB16-B818EE2CB9FD</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<referedAttribute>AEAE9B8F-00BF-4FB6-0344-2D45E2154571</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>14B7C2ED-9206-CADE-14E6-AD89CCF9CC09</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="agent_id" id="B7C7F207-773A-E186-12C0-5CCC0E88DE65">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-19 07:09:51 UTC</createdTime>
+<generatorID>6FF08C27-DC26-7972-CDC9-46CE86FAD129</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<referedAttribute>EDF373B1-DA83-3189-CCBD-9C7CAD0760B5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>14B7C2ED-9206-CADE-14E6-AD89CCF9CC09</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3E15FCC9-9D13-5DAF-8639-82519319EC51" name="pk_policy">
 <createdBy>tbeha</createdBy>
 <createdTime>2025-07-17 04:54:55 UTC</createdTime>
 <ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>96AF12E7-AA88-0402-0E4B-EDFBA24DA9E8</newElementsIDs>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="customer_vehicle" directorySegmentName="seg_0" id="49957760-A186-8A1F-24E4-C12BE3AC05B0">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-19 07:10:26 UTC</createdTime>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<sourcePk>AB335CF5-B81D-4644-0FB2-C69D754C7838</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>464266E0-3C09-E234-448D-251579F83268</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B83BCC51-355C-8FFB-CA63-A91D6A5D7970</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

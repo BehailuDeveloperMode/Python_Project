@@ -67,6 +67,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="policy_policy_id" id="419043E5-8F0D-68E5-C85B-D5DB1036BB23">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-19 07:22:36 UTC</createdTime>
+<generatorID>B0DFC1DA-5CD4-F000-7C8C-60436ED8A9A3</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>14B7C2ED-9206-CADE-14E6-AD89CCF9CC09</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BE0C3D0-138D-AB61-AA8D-CE4A58FD5CCC" referredColumn="B34C8BD1-DEFC-A77C-DBD8-2CCA521B3234"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2EC2DB68-FECB-A76A-4EEF-342162FBF762" name="claim_PK">
@@ -79,6 +94,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FB20EC0F-060E-DD1E-261A-047AD42A744B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC75A77B-3112-64ED-09C0-0E39FBF970DE" name="claim_policy_FK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-19 07:22:36 UTC</createdTime>
+<generatorID>F6BEFA1A-0446-1AC9-99AD-6A13A05AC456</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="419043E5-8F0D-68E5-C85B-D5DB1036BB23"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3BE0C3D0-138D-AB61-AA8D-CE4A58FD5CCC" containerWithKeyObject="71EC5686-3087-E927-906B-E173AF60E2CA" localFKIndex="AC75A77B-3112-64ED-09C0-0E39FBF970DE" name="claim_policy_FK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-19 07:22:36 UTC</createdTime>
+<generatorID>F6BEFA1A-0446-1AC9-99AD-6A13A05AC456</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<referredTableLongName>policy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7300053C-1FA3-C28F-CB89-84F5DA01F2A3</referredTableID>
+<keyObject>D558C921-9713-87CD-1F7F-06E0101840F2</keyObject>
+<referredKeyID>D558C921-9713-87CD-1F7F-06E0101840F2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>policy_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

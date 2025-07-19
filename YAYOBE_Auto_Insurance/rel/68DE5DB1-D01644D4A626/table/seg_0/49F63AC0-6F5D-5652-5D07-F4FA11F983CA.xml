@@ -55,6 +55,36 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="policy_policy_id" id="12168B26-4CB3-2D0E-E987-B1B0978AB136">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-19 07:22:36 UTC</createdTime>
+<generatorID>7BDF99E6-731D-66C8-3C87-DF9400E70DD2</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>14B7C2ED-9206-CADE-14E6-AD89CCF9CC09</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A63BCFED-8F1C-63C0-6449-701810E32E21" referredColumn="B34C8BD1-DEFC-A77C-DBD8-2CCA521B3234"/>
+</associations>
+</Column>
+<Column name="coverage_type_type_id" id="81DF74AB-3DD4-9DA1-E45A-68EB6ED44D2E">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-19 07:22:36 UTC</createdTime>
+<generatorID>592BEDFF-A834-0FA3-6B6B-A548E42FB35B</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>14B7C2ED-9206-CADE-14E6-AD89CCF9CC09</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36BD6D28-A176-B3D3-EFA7-F8ED618914F0" referredColumn="BC3CE1EB-5B80-D1D7-8C5A-CCD71A02D286"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="ACC0F9A1-2395-FE66-1924-3C7B00F1E281" name="coverage_PK">
@@ -67,6 +97,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="04EDA8FB-EDE2-DE14-B699-26C3E8BF9DA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAD1BBFC-CD76-53F1-4A71-D2DCE411BB71" name="coverage_coverage_type_FK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-19 07:22:36 UTC</createdTime>
+<generatorID>2639B4D9-72AB-08EB-B899-61CEFDD40538</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81DF74AB-3DD4-9DA1-E45A-68EB6ED44D2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68CBB73D-022D-82F6-99F2-1926691FFEFA" name="coverage_policy_FK">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-19 07:22:36 UTC</createdTime>
+<generatorID>06D7F97D-71DA-16D4-AA30-AD465F437930</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12168B26-4CB3-2D0E-E987-B1B0978AB136"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

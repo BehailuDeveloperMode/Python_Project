@@ -79,14 +79,29 @@
 <domain>154FE5C7-083D-B443-8DA7-C0DECB28841F</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="policy_id" id="B0DFC1DA-5CD4-F000-7C8C-60436ED8A9A3">
+<createdBy>tbeha</createdBy>
+<createdTime>2025-07-19 07:14:50 UTC</createdTime>
+<generatorID>F6BEFA1A-0446-1AC9-99AD-6A13A05AC456</generatorID>
+<ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<engineerTo>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+</engineerTo>
+<referedAttribute>96AF12E7-AA88-0402-0E4B-EDFBA24DA9E8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>14B7C2ED-9206-CADE-14E6-AD89CCF9CC09</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="55BE5B2B-0508-56A7-65F7-03839D565D78" name="pk_claim">
 <createdBy>tbeha</createdBy>
 <createdTime>2025-07-17 05:37:48 UTC</createdTime>
 <ownerDesignName>YAYOBE_Auto_Insurance</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="true"/>
+<item key="68DE5DB1-D685-9D48-31C8-D01644D4A626" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>27222006-941B-2449-15BF-E103092CBBBC</newElementsIDs>
